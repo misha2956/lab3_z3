@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter Friends Map</title>
+</head>
+<body style="background: #000;">
+    <div class="text" style="text-align: center; color: #fff;">
+	<h1>Find where your friends belong...</h1>
+	<form action="/map" method="post">
+	    <input name="username" placeholder="@username" type="text" style="width: 250px; background: #000; color: #fff;">
+	    <input name="friends_num" placeholder="maximum friends number (default: 50)" type="text" style="width: 250px; background: #000; color: #fff;">
+	    <input name="bearer_token" placeholder="Twitter BEARER_TOKEN (ask the dev)" type="password" style="width: 250px; background: #000; color: #fff;">
+	    <input type="submit" value="Create" style="width: 100px; background: #000; color: #fff;">
+	</form>
+    </div>
+</body>
+</html>
